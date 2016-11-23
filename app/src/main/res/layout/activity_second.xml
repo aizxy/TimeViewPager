@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fuicuiedu.idedemo.interview_banner.SecondActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/second_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:layout_gravity="bottom"
+          android:gravity="center"
+          android:orientation="vertical"
+          android:background="#f90909">
+          <TextView
+              android:id="@+id/second_textview"
+              android:text="hhhhhhhhhh"
+              android:gravity="center"
+              android:textSize="26sp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" />
+          <LinearLayout
+              android:orientation="horizontal"
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+            <view
+                android:id="@+id/view00"
+                android:background="@drawable/second_f"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"/>
+              <view
+                  android:id="@+id/view01"
+                  android:background="@drawable/second_n"
+                  android:layout_width="wrap_content"
+                  android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"
+                  android:layout_height="wrap_content"/>
+              <view
+                  android:id="@+id/view02"
+                  android:background="@drawable/second_n"
+                  android:layout_width="wrap_content"
+                  android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"
+                  android:layout_height="wrap_content"/>
+              <view
+                  android:id="@+id/view03"
+                  android:background="@drawable/second_n"
+                  android:layout_width="wrap_content"
+                  android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"
+                  android:layout_height="wrap_content"/>
+              <view
+                  android:id="@+id/view04"
+                  android:background="@drawable/second_n"
+                  android:layout_width="wrap_content"
+                  android:layout_marginLeft="5dp"
+                  android:layout_marginRight="5dp"
+                  android:layout_height="wrap_content"/>
+          </LinearLayout>
+
+      </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>
